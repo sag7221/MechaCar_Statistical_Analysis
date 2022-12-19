@@ -38,17 +38,26 @@ Lot 1 and Lot 2 meet the design specificiation.
 Here i carried out One sample t-tests. The results are as follows.
 
 #### T-Test on combined Lots
-One sample test on PSI column as a whole versus 1500 PSI
+One sample test on combined lots.
+
+![Combined Lots](https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/One_Sample_test_Entire_PSI_Column.png)
 
 Here, the p-value of t-test is much greater than 0.05, hence we cannot reject the null hypothesis. Mean of combined lots is statistically similar to the population mean of 1500
 
 #### T-Test on Lot1
+
+![Lot1](https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/t_test_lot1.png)
+
 Here the p-value is 1 so we cannot reject the null hypothesis as the value is much greater than 0.05. Mean of Lot1 is also statistically simialr to population mean of 1500
 
 #### T-Test on Lot2
+![Lot2](https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/t_test_lot2.png)
+
 p-value here is 0.6072 which is still greater than 0.05 and we cannot reject the null hypotheses here as well. Mean of Lot2 is also statistically similar to population mean of 1500
 
 
 #### T-Test on Lot3
+![Lot3](https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/t_test_lot3.png)
+
 p-value here is 0.04 which is lesser than 0.05 and hence we can reject the null hypothesis. Here as the null hypothesis can be rejected, the mean of lot3 is NOT statistically similar to the population mean of 1500.
 
