@@ -3,7 +3,8 @@
 ### Linear Regression to Predict MPG
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
-![Results](https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/One_Sample_test_Entire_PSI_Column.png==250x250)
+![Results](https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/One_Sample_test_Entire_PSI_Column.png=250x250)
+<img src="https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/One_Sample_test_Entire_PSI_Column.png" width="250">
 
 Here looking at the summary results, the variables : vehicle_length, ground clearance and Intercept provide the least variance and are absolutely needed to determine and predict the mpg.
 
