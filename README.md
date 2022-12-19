@@ -17,6 +17,7 @@ Yes, this linear model does predict mpg of MechaCar effectively. This can be der
 
 ### Summary Statistics on Suspension Coils
 So for this I have created 2 visualizations. \
+\
 Visualization 1: Mean, Median, Variance and Std Deviation for the PSI column on the whole.
 
 <img src="https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/summarize_info_PSI.png" width="550">
