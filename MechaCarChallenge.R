@@ -21,3 +21,19 @@ head(total_summary)
 lot_summary <- suspension_coil_df %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI,y=NULL), Standard_Deviation=sd(PSI))
 head(lot_summary)
 
+# T-Tests on Suspension Coils
+?t.test()
+t.test(suspension_coil_df$PSI, mu=1500)
+
+
+# t-test on Single sample Lot1
+t.test(subset(suspension_coil_df, Manufacturing_Lot=='Lot1')$PSI, mu = 1500)
+
+# t-test on Single sample Lot2
+t.test(subset(suspension_coil_df, Manufacturing_Lot=='Lot2')$PSI, mu = 1500)
+
+# t-test on Single sample Lot3
+t.test(subset(suspension_coil_df, Manufacturing_Lot=='Lot3')$PSI, mu = 1500)
+
+
+
