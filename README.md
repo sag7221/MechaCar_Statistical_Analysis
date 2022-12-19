@@ -16,7 +16,7 @@ Does this linear model predict mpg of MechaCar prototypes effectively? Why or wh
 Yes, this linear model does predict mpg of MechaCar effectively. This can be derived from the result of R-squared, 0.7149 (71.4% of times, it can predict the mpg correctly)
 
 ### Summary Statistics on Suspension Coils
-So for this I have created 2 visualizations. 
+So for this I have created 2 visualizations. \
 Visualization 1: Mean, Median, Variance and Std Deviation for the PSI column on the whole.
 
 <img src="https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/summarize_info_PSI.png" width="550">
@@ -47,20 +47,20 @@ Here, the p-value of t-test is much greater than 0.05, hence we cannot reject th
 
 #### T-Test on Lot1
 
-<img src="https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/t_test_lot1.png" width="550">
+<img src="https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/t_test_lot1.png" width="650">
 
 Here the p-value is 1 so we cannot reject the null hypothesis as the value is much greater than 0.05. Mean of Lot1 is also statistically simialr to population mean of 1500
 
 #### T-Test on Lot2
 
-<img src="https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/t_test_lot2.png" width="550">
+<img src="https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/t_test_lot2.png" width="650">
 
 p-value here is 0.6072 which is still greater than 0.05 and we cannot reject the null hypotheses here as well. Mean of Lot2 is also statistically similar to population mean of 1500
 
 
 #### T-Test on Lot3
 
-<img src="https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/t_test_lot3.png" width="550">
+<img src="https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/t_test_lot3.png" width="650">
 
 p-value here is 0.04 which is lesser than 0.05 and hence we can reject the null hypothesis. Here as the null hypothesis can be rejected, the mean of lot3 is NOT statistically similar to the population mean of 1500.
 
