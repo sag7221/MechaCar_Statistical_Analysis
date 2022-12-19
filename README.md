@@ -3,7 +3,7 @@
 ### Linear Regression to Predict MPG
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
-[Results](https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/One_Sample_test_Entire_PSI_Column.png)
+![Results](https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/One_Sample_test_Entire_PSI_Column.png)
 
 Here looking at the summary results, the variables : vehicle_length, ground clearance and Intercept provide the least variance and are absolutely needed to determine and predict the mpg.
 
@@ -17,11 +17,11 @@ Yes, this linear model does predict mpg of MechaCar effectively. This can be der
 ### Summary Statistics on Suspension Coils
 So for this I have created 2 visualizations. 
 Visualization 1: Mean, Median, Variance and Std Deviation for the PSI column on the whole.
-[Results](https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/summarize_info_PSI.png)
+![Results](https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/summarize_info_PSI.png)
 
 
 Visualization 2: Mean, Median, Variance and Std Deviation of the pSI for each manufacturing lot type.
-[Results](https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/lot_summary_PSI.png)
+![Results](https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/lot_summary_PSI.png)
 
 
 
