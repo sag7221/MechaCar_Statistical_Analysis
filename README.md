@@ -19,10 +19,10 @@ Yes, this linear model does predict mpg of MechaCar effectively. This can be der
 So for this I have created 2 visualizations. 
 Visualization 1: Mean, Median, Variance and Std Deviation for the PSI column on the whole.
 
-<img src="https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/summarize_info_PSI.png" width="550")
+<img src="https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/summarize_info_PSI.png" width="550">
 
 Visualization 2: Mean, Median, Variance and Std Deviation of the pSI for each manufacturing lot type.
-<img src="https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/lot_summary_PSI.png" width="550")
+<img src="https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/lot_summary_PSI.png" width="550">
 
 
 
@@ -41,26 +41,26 @@ Here i carried out One sample t-tests. The results are as follows.
 #### T-Test on combined Lots
 One sample test on combined lots.
 
-<img src="https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/One_Sample_test_Entire_PSI_Column.png" width="550")
+<img src="https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/One_Sample_test_Entire_PSI_Column.png" width="550">
 
 Here, the p-value of t-test is much greater than 0.05, hence we cannot reject the null hypothesis. Mean of combined lots is statistically similar to the population mean of 1500
 
 #### T-Test on Lot1
 
-<img src="https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/t_test_lot1.png" width="550")
+<img src="https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/t_test_lot1.png" width="550">
 
 Here the p-value is 1 so we cannot reject the null hypothesis as the value is much greater than 0.05. Mean of Lot1 is also statistically simialr to population mean of 1500
 
 #### T-Test on Lot2
 
-<img src="https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/t_test_lot2.png" width="550")
+<img src="https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/t_test_lot2.png" width="550">
 
 p-value here is 0.6072 which is still greater than 0.05 and we cannot reject the null hypotheses here as well. Mean of Lot2 is also statistically similar to population mean of 1500
 
 
 #### T-Test on Lot3
 
-<img src="https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/t_test_lot3.png" width="550")
+<img src="https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/t_test_lot3.png" width="550">
 
 p-value here is 0.04 which is lesser than 0.05 and hence we can reject the null hypothesis. Here as the null hypothesis can be rejected, the mean of lot3 is NOT statistically similar to the population mean of 1500.
 
