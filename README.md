@@ -18,11 +18,11 @@ Yes, this linear model does predict mpg of MechaCar effectively. This can be der
 ### Summary Statistics on Suspension Coils
 So for this I have created 2 visualizations. \
 \
-Visualization 1: Mean, Median, Variance and Std Deviation for the PSI column on the whole.
+**Visualization 1**: Mean, Median, Variance and Std Deviation for the PSI column on the whole.
 
 <img src="https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/summarize_info_PSI.png" width="550">
 
-Visualization 2: Mean, Median, Variance and Std Deviation of the pSI for each manufacturing lot type.
+**Visualization 2**: Mean, Median, Variance and Std Deviation of the pSI for each manufacturing lot type.
 <img src="https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/lot_summary_PSI.png" width="550">
 
 
@@ -64,4 +64,27 @@ p-value here is 0.6072 which is still greater than 0.05 and we cannot reject the
 <img src="https://github.com/sag7221/MechaCar_Statistical_Analysis/blob/main/visualizations/t_test_lot3.png" width="650">
 
 p-value here is 0.04 which is lesser than 0.05 and hence we can reject the null hypothesis. Here as the null hypothesis can be rejected, the mean of lot3 is NOT statistically similar to the population mean of 1500.
+
+### Study Comparing MechaCar to the Competition
+
+One the metrics that is key to customer satisfaction is gas mileage (mpg). We have predicted the mpg for MecharCar.
+However we could consider the values that highly imapact mpg such as 
+1. Vehicle length, 
+2. Ground clearance 
+3. Add another variable to check dependency like Horsepower.
+
+We can then perform two sample t-tests. 
+
+Coming to the hypothesis we can mention it as follows:
+
+Null Hypothesis - The mean of the mpg is same for all car brands.
+Alternative Hypothesis - The mean of the mpg for at least one car brand is different.
+
+
+
+
+
+
+
+
 
